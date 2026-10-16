@@ -1,8 +1,25 @@
-import { readFile, writeFile, mkdir, cp, rm, stat } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, cp, rm, stat, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+// Support assets uploaded as separate GitHub browser batches.
+const publicDirectory = path.join(root, 'public');
+const hasPublic = await stat(publicDirectory).then(info => info.isDirectory()).catch(error => {
+  if (error.code === 'ENOENT') return false;
+  throw error;
+});
+const assetDirectories = hasPublic ? [publicDirectory] : (await readdir(root, { withFileTypes: true }))
+  .filter(entry => entry.isDirectory() && /^upload-\d+$/.test(entry.name))
+  .map(entry => path.join(root, entry.name, 'public')).sort();
+if (!assetDirectories.length) throw new Error('Missing website assets: upload public or the upload-01 through upload-09 folders.');
+async function checkImage(image) {
+  for (const directory of assetDirectories) {
+    try { await stat(path.join(directory, image)); return; }
+    catch (error) { if (error.code !== 'ENOENT') throw error; }
+  }
+  throw new Error('Missing image: ' + image);
+}
 const read = async file => readFile(path.join(root, file), 'utf8');
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const site = JSON.parse(await read('content/site.json'));
@@ -21,7 +38,7 @@ for (const project of projects) {
   let artwork;
   if (project.image) {
     if (!/^\/images\/[a-zA-Z0-9_./-]+$/.test(project.image) || project.image.includes('..')) throw new Error('Use a local /images/ path.');
-    await stat(path.join(root, 'public', project.image));
+    await checkImage(project.image);
     artwork = `<img class="project-image" src="${escape(project.image)}" alt="" loading="lazy" decoding="async" style="object-position:${escape(project.objectPosition || 'center')}" />`;
   } else {
     if (!/^[a-z0-9-]+\.html$/.test(project.artwork || '')) throw new Error('Missing artwork or image for '+project.id);
@@ -63,7 +80,9 @@ const output = `<!doctype html>
 </html>`;
 await rm(path.join(root,'dist'),{recursive:true,force:true});
 await mkdir(path.join(root,'dist'),{recursive:true});
-await cp(path.join(root,'public'),path.join(root,'dist'),{recursive:true});
+for (const directory of assetDirectories) {
+  await cp(directory, path.join(root, 'dist'), { recursive: true });
+}
 await writeFile(path.join(root,'dist/index.html'),output);
 const informationContent = await read('content/information.html');
 const social = `<nav class="information-social" aria-label="Contact">${label('Instagram',site.instagramUrl)}${label('LinkedIn',site.linkedinUrl)}${label('X',site.xUrl)}${label('Email',site.email ? 'mailto:'+site.email : '')}</nav>`;
