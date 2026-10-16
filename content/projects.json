@@ -1,0 +1,442 @@
+[
+  {
+    "id": "as-runas",
+    "title": "As Runas",
+    "category": "Boutique Hotel",
+    "artwork": "as-runas.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "dtx",
+    "title": "DTX",
+    "category": "Record Label",
+    "artwork": "dtx.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "interstellar",
+    "title": "Interstellar",
+    "category": "Music Artist",
+    "artwork": "interstellar.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "future-films",
+    "title": "Future Films",
+    "category": "Streaming Platform",
+    "artwork": "future-films.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "arnaldo-antunes",
+    "title": "Arnaldo Antunes",
+    "category": "Music Artist",
+    "artwork": "arnaldo-antunes.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "gandum",
+    "title": "Gandum",
+    "category": "Boutique Hotel",
+    "artwork": "gandum.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "nomade-records",
+    "title": "Nomade Records",
+    "category": "Record Label",
+    "artwork": "nomade-records.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "o33",
+    "title": "O33",
+    "category": "Wood Craftsmanship",
+    "artwork": "o33.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "domenique-dumont",
+    "title": "Domenique Dumont",
+    "category": "Music Artist",
+    "artwork": "domenique-dumont.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "tzol-skin",
+    "title": "Tzol’Skin",
+    "category": "Vegan Skincare",
+    "artwork": "tzol-skin.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "alquimia",
+    "title": "Alquimia do Montado",
+    "category": "Gourmet Foods",
+    "artwork": "alquimia.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "obsolete",
+    "title": "obsolete.studio",
+    "category": "Cultural Organization",
+    "artwork": "obsolete.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "alma",
+    "title": "Alma",
+    "category": "Music Artist",
+    "artwork": "alma.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "aivados",
+    "title": "AIVADOS",
+    "category": "Boutique Surf Hotel",
+    "artwork": "aivados.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "wrkrm",
+    "title": "WRKRM",
+    "category": "Music Events",
+    "artwork": "wrkrm.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "poster",
+    "title": "Poster",
+    "category": "Mixed-Media Poster",
+    "artwork": "poster.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "hauto",
+    "title": "HAUTO",
+    "category": "Skincare",
+    "artwork": "hauto.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "magnameta",
+    "title": "Magnameta",
+    "category": "Interior Design",
+    "artwork": "magnameta.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "cityleaks",
+    "title": "CityLeaks",
+    "category": "Urban Art Festival",
+    "artwork": "cityleaks.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "cisma",
+    "title": "CISMA",
+    "category": "Youth Organization",
+    "artwork": "cisma.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "ide8",
+    "title": "IDE8",
+    "category": "Real Estate",
+    "artwork": "ide8.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": -0.65
+  },
+  {
+    "id": "swiss-escape",
+    "title": "Swiss Escape",
+    "category": "Co-living Space",
+    "artwork": "swiss-escape.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": -0.65
+  },
+  {
+    "id": "rocket-science",
+    "title": "Rocket Science",
+    "category": "Skincare",
+    "artwork": "rocket-science.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": -0.65
+  },
+  {
+    "id": "conversas",
+    "title": "Conversas Rotterdam",
+    "category": "Events",
+    "artwork": "conversas.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "painting-red",
+    "title": "Painting",
+    "category": "Oil Pastel on Paper",
+    "artwork": "painting-red.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": -0.65
+  },
+  {
+    "id": "wildfleur",
+    "title": "Wildfleur",
+    "category": "Skincare",
+    "artwork": "wildfleur.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "painting",
+    "title": "Painting",
+    "category": "Oil Pastel on Paper",
+    "artwork": "painting.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "capy",
+    "title": "Capy",
+    "category": "AI Software Engineer",
+    "artwork": "capy.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "heeria",
+    "title": "HEERIA",
+    "category": "Jewelry",
+    "artwork": "heeria.html",
+    "desktopOffsetX": 0,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "oliver-wyman",
+    "title": "Oliver Wyman",
+    "category": "Consulting",
+    "artwork": "oliver-wyman.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "james-flower",
+    "title": "James Flower",
+    "category": "Music Artist",
+    "artwork": "james-flower.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "telma-goncalves",
+    "title": "Telma Goncalves",
+    "category": "Lawyer",
+    "artwork": "telma-goncalves.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "nomad-records",
+    "title": "Nomad Records",
+    "category": "Record Label",
+    "artwork": "nomad-records.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "joren-ottens",
+    "title": "Joren Ottens",
+    "category": "Technical Designer",
+    "artwork": "joren-ottens.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "outroom",
+    "title": "Outroom",
+    "category": "Music Events",
+    "artwork": "outroom.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "asian-marketplace",
+    "title": "Stu.dere",
+    "category": "Asian Marketplace",
+    "artwork": "asian-marketplace.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "ana-viotti",
+    "title": "Ana Viotti",
+    "category": "Photographer",
+    "artwork": "ana-viotti.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "future-print-club",
+    "title": "Future Print Club",
+    "category": "NGO",
+    "artwork": "future-print-club.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "stu-dere",
+    "title": "Stu.dere",
+    "category": "Architecture Studio",
+    "artwork": "stu-dere.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "mulheres-com-impacto",
+    "title": "Mulheres com Impacto",
+    "category": "NGO",
+    "artwork": "mulheres-com-impacto.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "apro",
+    "title": "APRO",
+    "category": "Consulting",
+    "artwork": "apro.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "gilberto-gil",
+    "title": "Gilberto Gil",
+    "category": "Music Artist",
+    "artwork": "gilberto-gil.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "painting-digital-red",
+    "title": "Painting",
+    "category": "Digital",
+    "artwork": "painting-digital-red.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "days-of-adventure",
+    "title": "Days of Adventure",
+    "category": "Tours",
+    "artwork": "days-of-adventure.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "painting-mixed",
+    "title": "Painting",
+    "category": "Oil Pastel on Paper + Digital",
+    "artwork": "painting-mixed.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "as-runas-illustration",
+    "title": "As Runas",
+    "category": "Boutique Hotel",
+    "artwork": "as-runas-illustration.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "dtx-artwork",
+    "title": "DTX",
+    "category": "Record Label",
+    "artwork": "dtx-artwork.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "illustration-pen",
+    "title": "Illustration",
+    "category": "Pen on Paper + Digital",
+    "artwork": "illustration-pen.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "painting-framed",
+    "title": "Painting",
+    "category": "Oil Pastel on Paper",
+    "artwork": "painting-framed.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "painting-digital-grid",
+    "title": "Painting",
+    "category": "Digital",
+    "artwork": "painting-digital-grid.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "gandum-sign",
+    "title": "Gandum",
+    "category": "Boutique Hotel",
+    "artwork": "gandum-sign.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "everpress",
+    "title": "Everpress",
+    "category": "Retail",
+    "artwork": "everpress.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "joana-nobre",
+    "title": "Joana Nobre",
+    "category": "Cosmetics",
+    "artwork": "joana-nobre.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "dtx-black",
+    "title": "DTX",
+    "category": "Record Label",
+    "artwork": "dtx-black.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  },
+  {
+    "id": "stuff",
+    "title": "stu.ff",
+    "category": "Industrial Design",
+    "artwork": "stuff.html",
+    "desktopOffsetX": -1,
+    "desktopOffsetY": 0
+  }
+]
