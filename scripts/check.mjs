@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { readFile, stat } from 'node:fs/promises';
+await import('./build.mjs');
+const html = await readFile('dist/index.html','utf8');
+assert(!html.includes('figma.com/api'), 'Temporary Figma URLs must not ship.');
+const paths = new Set([...html.matchAll(/(?:src="|url\()((?:\/images\/)[^"\)]+)/g)].map(m=>m[1]));
+paths.add('/fonts/SuisseIntlTrial-Book.otf');
+paths.add('/fonts/SuisseIntlTrial-Bold.otf');
+for (const file of paths) assert((await stat('dist'+file)).size > 0, 'Empty asset: '+file);
+const projects = JSON.parse(await readFile('content/projects.json','utf8'));
+assert.equal((html.match(/<figure /g)||[]).length,projects.length);
+console.log(`Verified ${projects.length} projects and ${paths.size} non-empty local assets. No temporary image URLs.`);
